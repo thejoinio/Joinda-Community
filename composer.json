@@ -3,8 +3,7 @@
     "description": "joinda community",
     "type": "project",
     "require": {
-        "php": "^8.0",
-        "ext-mysqli": "*",            
+        "php": "^8.0",          
         "monolog/monolog": "^2.0"   
     },
     "autoload": {
