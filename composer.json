@@ -1,0 +1,23 @@
+{
+    "name": "uverus/joinda-community",
+    "description": "joinda community",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "ext-mysqli": "*",            
+        "monolog/monolog": "^2.0"   
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"          
+        }
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000 -t public" 
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
